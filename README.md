@@ -1,13 +1,14 @@
 
-# react-native-wireguard
+
+# react-native-wireguard-clone
 
 ## Getting started
 
-`$ npm install react-native-wireguard --save`
+`$ yarn react-native-wireguard-clone --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-wireguard`
+`$ react-native link react-native-wireguard-clone`
 
 ### Extra steps
 
@@ -59,7 +60,7 @@ Doesn't work on iOS yet. SOON...
 
 ## Usage
 ```javascript
-import WireGuard from 'react-native-wireguard';
+import WireGuard from 'react-native-wireguard-clone';
 
 // Gets the version of the underying wireguard-go
 WireGuard.Version().then((v) => this.setState{version: v});
@@ -140,4 +141,4 @@ componentWillUnmount() {
     DeviceEventEmitter.removeAllListeners();
 }
 
-```# react-native-wireguard
+```# react-native-wireguard-clone

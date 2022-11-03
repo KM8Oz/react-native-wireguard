@@ -2,8 +2,17 @@
 # react-native-wireguard
 
 ## Getting started
+`$ git clone git@github.com:KM8Oz/react-native-wireguard.git`
 
-`$ npm install react-native-wireguard --save`
+### package.json:
+`
+"dependencies": {
+     "react-native-wireguard: "./react-native-wireguard",
+     ...
+    }
+`
+
+`$ npm i`
 
 ### Mostly automatic installation
 

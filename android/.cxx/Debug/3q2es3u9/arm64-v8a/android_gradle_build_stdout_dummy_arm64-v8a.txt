@@ -1,0 +1,73 @@
+ninja: Entering directory `/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/arm64-v8a'
+[1/3] Building wireguard-go
+rm -rf "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot"
+mkdir -p "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot"
+curl "https://dl.google.com/go/go1.12.darwin-amd64.tar.gz" | tar -C "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot" --strip-components=1 -xzf - || { rm -rf "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot"; exit 1; }
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0  121M    0  104k    0     0   277k      0  0:07:26 --:--:--  0:07:26  281k
+  3  121M    3 4480k    0     0  3258k      0  0:00:38  0:00:01  0:00:37 3270k
+  6  121M    6 8576k    0     0  3606k      0  0:00:34  0:00:02  0:00:32 3613k
+ 11  121M   11 13.8M    0     0  4186k      0  0:00:29  0:00:03  0:00:26 4192k
+ 15  121M   15 19.2M    0     0  4498k      0  0:00:27  0:00:04  0:00:23 4503k
+ 19  121M   19 23.6M    0     0  4509k      0  0:00:27  0:00:05  0:00:22 4827k
+ 21  121M   21 26.0M    0     0  4188k      0  0:00:29  0:00:06  0:00:23 4444k
+ 24  121M   24 29.4M    0     0  4089k      0  0:00:30  0:00:07  0:00:23 4318k
+ 29  121M   29 35.2M    0     0  4290k      0  0:00:28  0:00:08  0:00:20 4360k
+ 33  121M   33 40.6M    0     0  4400k      0  0:00:28  0:00:09  0:00:19 4317k
+ 38  121M   38 46.1M    0     0  4555k      0  0:00:27  0:00:10  0:00:17 4604k
+ 41  121M   41 50.2M    0     0  4519k      0  0:00:27  0:00:11  0:00:16 4940k
+ 44  121M   44 54.4M    0     0  4502k      0  0:00:27  0:00:12  0:00:15 5112k
+ 48  121M   48 59.1M    0     0  4499k      0  0:00:27  0:00:13  0:00:14 4848k
+ 52  121M   52 63.4M    0     0  4519k      0  0:00:27  0:00:14  0:00:13 4745k
+ 56  121M   56 68.7M    0     0  4573k      0  0:00:27  0:00:15  0:00:12 4610k
+ 61  121M   61 74.1M    0     0  4629k      0  0:00:26  0:00:16  0:00:10 4879k
+ 64  121M   64 78.2M    0     0  4587k      0  0:00:27  0:00:17  0:00:10 4795k
+ 69  121M   69 83.7M    0     0  4615k      0  0:00:26  0:00:18  0:00:08 4919k
+ 73  121M   73 89.2M    0     0  4674k      0  0:00:26  0:00:19  0:00:07 5104k
+ 78  121M   78 95.1M    0     0  4730k      0  0:00:26  0:00:20  0:00:06 5193k
+ 83  121M   83  100M    0     0  4817k      0  0:00:25  0:00:21  0:00:04 5437k
+ 87  121M   87  105M    0     0  4826k      0  0:00:25  0:00:22  0:00:03 5671k
+ 88  121M   88  107M    0     0  4679k      0  0:00:26  0:00:23  0:00:03 4921k
+ 90  121M   90  109M    0     0  4568k      0  0:00:27  0:00:24  0:00:03 4163k
+ 92  121M   92  111M    0     0  4484k      0  0:00:27  0:00:25  0:00:02 3441k
+ 94  121M   94  114M    0     0  4427k      0  0:00:27  0:00:26  0com.km8oz.netvpn
+ 97  121M   97  117M    0     0  4397k      0  0:00:28  0:00:27  0:00:01 2478k
+ 99  121M   99  120M    0     0  4306k      0  0:00:28  0:00:28 --:--:-- 2592k
+100  121M  100  121M    0     0  4237k      0  0:00:29  0:00:29 --:--:-- 2467k
+patch -p1 -f -N -r- -d "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot" < goruntime-boottime-over-monotonic.diff || { rm -rf "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/goroot"; exit 1; }
+patching file src/runtime/sys_linux_386.s
+patching file src/runtime/sys_linux_amd64.s
+patching file src/runtime/sys_linux_arm.s
+patching file src/runtime/sys_linux_arm64.s
+patching file src/runtime/sys_linux_mips64x.s
+patching file src/runtime/sys_linux_mipsx.s
+patching file src/runtime/sys_linux_ppc64x.s
+patching file src/runtime/sys_linux_s390x.s
+go get -tags linux || { chmod -fR +w "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/gopath/pkg/mod"; rm -rf "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/gopath/pkg/mod"; exit 1; }
+go: finding golang.org/x/sys v0.0.0-20190321052220-f7bb7a8bee54
+go: finding golang.zx2c4.com/wireguard v0.0.0-20190409083948-18fa27047265
+go: finding github.com/Microsoft/go-winio v0.4.12
+go: finding golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+go: finding golang.org/x/net v0.0.0-20190320064053-1272bf9dcd53
+go: finding golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+go: finding golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
+go: finding golang.org/x/text v0.3.0
+go: downloading golang.zx2c4.com/wireguard v0.0.0-20190409083948-18fa27047265
+go: extracting golang.zx2c4.com/wireguard v0.0.0-20190409083948-18fa27047265
+go: downloading golang.org/x/sys v0.0.0-20190321052220-f7bb7a8bee54
+go: downloading golang.org/x/net v0.0.0-20190320064053-1272bf9dcd53
+go: downloading golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+go: extracting golang.org/x/crypto v0.0.0-20190320223903-b7391e95e576
+go: extracting golang.org/x/net v0.0.0-20190320064053-1272bf9dcd53
+go: extracting golang.org/x/sys v0.0.0-20190321052220-f7bb7a8bee54
+chmod -fR +w "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/gopath/pkg/mod"
+go build -tags linux -ldflags="-X main.socketDirectory=/data/data/com.km8oz.freeinternetvpn/cache/wireguard" -v -o "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/libwg-go.so" -buildmode c-shared
+runtime/cgo
+net
+golang.zx2c4.com/wireguard/android
+go version > /Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/../generated-src/.gobuildversion
+[2/3] Building C object CMakeFiles/dummy.dir/dummy/dummy.c.o
+[3/3] Linking C shared library /Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/arm64-v8a/libdummy.so

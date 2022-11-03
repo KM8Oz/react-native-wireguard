@@ -1,0 +1,7 @@
+Executable : /Users/novyjpolzovatel/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86
+dummy
+jvmArgs : 
+

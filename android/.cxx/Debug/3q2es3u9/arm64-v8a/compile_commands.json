@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/arm64-v8a",
+  "command": "/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Ddummy_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -O3 -std=gnu11 -Wall -pedantic -Wno-missing-field-initializers -Wno-unused-function -o CMakeFiles/dummy.dir/dummy/dummy.c.o -c /Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/tools/dummy/dummy.c",
+  "file": "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/tools/dummy/dummy.c"
+}
+]

@@ -1,0 +1,4 @@
+# ninja log v5
+0	15743	0	CMakeFiles/libwg-go.so	a4ce27ad57ad04a9
+15743	15817	1665836766	CMakeFiles/dummy.dir/dummy/dummy.c.o	e5272560d7effab7
+15817	15878	1665836766	/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/libdummy.so	78fefd5db299da0d

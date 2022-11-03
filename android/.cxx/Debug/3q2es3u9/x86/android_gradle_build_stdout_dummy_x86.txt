@@ -1,0 +1,11 @@
+ninja: Entering directory `/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86'
+[1/3] Building wireguard-go
+go get -tags linux || { chmod -fR +w "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/../generated-src/gopath/pkg/mod"; rm -rf "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/../generated-src/gopath/pkg/mod"; exit 1; }
+chmod -fR +w "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/../generated-src/gopath/pkg/mod"
+go build -tags linux -ldflags="-X main.socketDirectory=/data/data/com.km8oz.netvpn/cache/wireguard" -v -o "/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/libwg-go.so" -buildmode c-shared
+runtime/cgo
+net
+golang.zx2c4.com/wireguard/android
+go version > /Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/../generated-src/.gobuildversion
+[2/3] Building C object CMakeFiles/dummy.dir/dummy/dummy.c.o
+[3/3] Linking C shared library /Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/x86/libdummy.so

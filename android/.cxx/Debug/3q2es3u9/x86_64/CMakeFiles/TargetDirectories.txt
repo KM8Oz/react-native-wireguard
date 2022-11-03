@@ -1,0 +1,4 @@
+/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86_64/CMakeFiles/edit_cache.dir
+/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86_64/CMakeFiles/libwg-go.so.dir
+/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/x86_64/CMakeFiles/dummy.dir

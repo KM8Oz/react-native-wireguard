@@ -1,0 +1,24 @@
+                    Executable : /Users/novyjpolzovatel/Library/Android/sdk/cmake/3.18.1/bin/cmake
+arguments : 
+-H/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/tools
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/novyjpolzovatel/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/novyjpolzovatel/Library/Android/sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/build/intermediates/cxx/Debug/3q2es3u9/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/novyjpolzovatel/Desktop/freeInternetVPN/node_modules/react-native-wireguard/android/.cxx/Debug/3q2es3u9/armeabi-v7a
+-GNinja
+-DANDROID_PACKAGE_NAME=com.km8oz.netvpn
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2
